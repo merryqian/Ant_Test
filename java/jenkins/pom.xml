@@ -1,0 +1,55 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.merry</groupId>
+  <artifactId>ExcelTest</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+   <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.0</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+	<groupId>jaxen</groupId>
+	<artifactId>jaxen</artifactId>
+	<version>1.1.6</version>
+</dependency>
+   <dependency>
+	<groupId>ant</groupId>
+	<artifactId>ant</artifactId>
+	<version>1.6.3</version>
+</dependency>
+<dependency>
+	<groupId>net.sourceforge.jexcelapi</groupId>
+	<artifactId>jxl</artifactId>
+	<version>2.6.12</version>
+</dependency>
+<dependency>
+	<groupId>dom4j</groupId>
+	<artifactId>dom4j</artifactId>
+	<version>1.6.1</version>
+</dependency>
+<dependency>
+	<groupId>org.apache.poi</groupId>
+	<artifactId>poi</artifactId>
+	<version>3.10.1</version>
+</dependency>
+<dependency>
+	<groupId>org.apache.poi</groupId>
+	<artifactId>poi-ooxml</artifactId>
+	<version>3.10.1</version>
+</dependency>
+<dependency>
+	<groupId>log4j</groupId>
+	<artifactId>log4j</artifactId>
+	<version>1.2.17</version>
+</dependency>
+<dependency>
+	<groupId>org.testng</groupId>
+	<artifactId>testng</artifactId>
+	<version>6.9.9</version>
+</dependency>
+
+  </dependencies>
+</project>
